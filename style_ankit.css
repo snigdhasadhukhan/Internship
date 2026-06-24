@@ -1,0 +1,171 @@
+body{
+    margin: 10;
+    padding: 0;
+    background-color: rgb(103, 138, 32);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    margin: auto;
+    width: 1000px;
+    height: auto;
+}
+.page-header{
+    height: 200px;
+    width: 100%;
+    background-image: url('https://www.shutterstock.com/image-vector/abstract-hexagon-lines-on-gray-260nw-2640998049.jpg');
+}
+.page-header h1{
+    margin:0;
+    padding: 50px 100px 0 0;
+    text-align: right;
+}
+.page-header h4{
+    margin:0;
+    padding: 10px 192px 0 0;
+    text-align: right;
+}
+.content{
+    width: 100%;
+    height: 800px;
+    margin: 10px 0 0 0;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/018/033/143/small/abstract-soft-yellow-watercolor-background-creative-yellow-clouds-and-white-shades-hand-drawn-texture-watercolor-paper-textured-aquarelle-canvas-for-modern-creative-design-wash-aqua-vector.jpg');
+}
+.content nav{
+    width: 95%;
+    height: 20px;
+    padding: 10px;
+    background-color: antiquewhite;
+    border-left: 2px solid burlywood;
+    border-top: 2px solid burlywood;
+    border-right: 2px solid burlywood;
+    margin: 10px 0 0 12px;
+}
+.content nav ul{
+    margin:0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.content nav ul li{
+    margin:0 35px 0 30px;
+    padding:0 7.5px 0 7.5px; 
+    color: blue;
+    height: 33px;
+    text-align: center;
+    display: block;
+    block-size: auto;
+}
+.menu2{
+    margin: 20px 0 0px 10px;
+    padding: 0px;
+    width: 250px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.menu2 h2{
+    background-color: yellowgreen;
+    padding:10px;
+    width: 250px;
+    margin: 0;
+}
+.menu2 ul{
+    width: 265px;
+    margin: 10px 0 0 2px;
+    padding: 0px;
+    background-color: bisque;
+}
+.menu2 ul li{
+    margin:0 0 0 30px;
+    padding: 10px;
+    color: blue;
+    text-decoration: underline;
+}
+.menu2 h3{
+    font-size: 30px;
+    margin: 60px 0 0 42px;
+    border-left: 2px solid burlywood;
+    padding: 0 0 0 10px;
+}
+.menu2 h4{
+    width: 600px;
+    margin: 0 0 0 42px;
+    padding: 10px;
+    border-left: 2px solid burlywood;
+    text-align: justify;
+}
+.menu3{
+    margin:0;
+    padding: 0;
+}
+.menu3 ul{
+    margin:20px 0 0 -28px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.menu3 ul li h2{
+    background-color: yellowgreen;
+    padding: 10px;
+    width: 250px;
+    margin: 0;
+}
+.menu3 ul li p{
+    width: 250px;
+    background-color: bisque;
+    margin-top: -10px;
+    padding: 10px;
+    text-align: justify;
+}
+.menu3 h3{
+    font-size: 30px;
+    margin: -80px 0 0 40px;
+    padding: 60px 0 0 10px;
+    text-align: justify;
+    border-left: 2px solid burlywood;
+}
+.menu3 ul li h4{
+    width: 250px;
+    text-align: justify;
+    margin: 0px 0 0 40px;
+    padding: 10px;
+    border-left: 2px solid burlywood;
+}
+.menu3 ul li h4 footer p{
+     background-color: yellowgreen;
+     margin:  10px 0 0 2px;
+     padding: 10px;
+     width: 90px;
+}
+.menu3 h5{
+    font-size: 30px;
+    margin: -30px 0 0 40px;
+    padding: 10px 0 0 10px;
+    text-align: justify;
+    border-left: 2px solid burlywood;
+}
+.menu3 ul li h6{
+    width: 250px;
+    text-align: justify;
+    margin: 0px 0 0 40px;
+    padding: 10px;
+    border-left: 2px solid burlywood;
+    font-size: 16px;
+}
+.menu3 ul li h6 footer p{
+     background-color: yellowgreen;
+     margin:  15px 0 0 2px;
+     padding: 10px;
+     width: 90px;
+}
+.content nav ul li:hover, .active{
+    background-color:rgb(156, 153, 153);
+    color: #000;
+}
+.content footer p{
+    background-color: yellowgreen;
+    text-align: center;
+    margin: 15px;
+    padding: 10px 0 10px 0;
+}
